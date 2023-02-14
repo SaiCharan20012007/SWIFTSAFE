@@ -1,0 +1,15 @@
+.category-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+}
+.category-image {
+  border-radius: 100px;
+}
+.category-title {
+  color: black;
+  border-radius: 5px;
+  text-align: center;
+}

@@ -1,0 +1,111 @@
+@media (min-width: 676px) {
+  .spring-pet-image {
+    background-image: url('https://fable.club/wp-content/uploads/2022/05/placeholder-600x600.jpeg');
+    width: 280px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+    align-items: center;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: orange;
+    background-size: cover;
+  }
+  .spring-pet-product-container {
+    list-style-type: none;
+    padding: 7px;
+    margin: 10px;
+  }
+  .spring-pet-product-price {
+    color: blueviolet;
+    margin-left: 8px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    font-size: 20px;
+  }
+  .rating-star-size {
+    height: 15px;
+    width: 60px;
+    margin-top: -2px;
+    margin-left: 10px;
+    margin-bottom: 7px;
+  }
+  .add-to-cart-btn {
+    border-style: none;
+    border-width: 0px;
+    height: 50px;
+    font-size: 18px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  .spring-pet-product-name {
+    color: black;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 676px) {
+  .spring-pet-image {
+    background-image: url('https://fable.club/wp-content/uploads/2022/05/placeholder-600x600.jpeg');
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 7px;
+    align-items: center;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: orange;
+    background-size: cover;
+  }
+  .spring-pet-product-container {
+    list-style-type: none;
+    padding: 7px;
+    margin: 7px;
+  }
+  .spring-pet-product-price {
+    color: blueviolet;
+    margin-left: 8px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    font-size: 16px;
+  }
+  .rating-star-size {
+    height: 10px;
+    width: 40px;
+    margin-top: -2px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+  .add-to-cart-btn {
+    border-style: none;
+    border-width: 0px;
+    height: 30px;
+    font-size: 15px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 15px;
+  }
+  .spring-pet-product-name {
+    color: black;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    font-size: 18px;
+  }
+}

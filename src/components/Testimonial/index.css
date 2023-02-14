@@ -1,0 +1,38 @@
+.testimonial-item {
+  display: flex;
+}
+.profile {
+  height: 100px;
+  width: 100px;
+  border-radius: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: dotted;
+  border-width: 1px;
+  border-color: orangered;
+}
+.star-image {
+  height: 18px;
+  margin-left: 15px;
+}
+.feedback {
+  margin-left: 15px;
+}
+
+.name {
+  margin-top: 2px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.job {
+  margin: 0px;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 16px;
+}
+.profile-section {
+  height: 150px;
+  width: 130px;
+}
